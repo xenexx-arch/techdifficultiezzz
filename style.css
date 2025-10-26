@@ -1,0 +1,21 @@
+@keyframes color-change {
+  0%   { color: D6FF6B; }
+  50%  { color: #FFFFFF; }
+  100% { color: D6FF6B; }
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-size: 11px; /* Размер основного шрифта в
+  */
+    background-color: #5988FF; /* Цвет фона веб-страницы */
+    color: #FFFFFF; /* Цвет основного текста */ 
+    text-decoration-color: #D6FF6B
+    border: #FD98FB
+}
+h1 {
+    animation: color-change 10s infinite;
+    color: #D6FF6B; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: 'Courier New', Courier, monospace
+}
